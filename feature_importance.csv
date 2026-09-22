@@ -1,0 +1,12 @@
+Rank,Feature,Depth_Weighted_Importance_%,Mean_Split_Depth,Split_Count
+1,Network_Stress,10.47,5.216,1389
+2,Power_Consumption_kW_zscore,10.15,5.204,1440
+3,Predictive_Maintenance_Score_zscore,9.38,5.264,1366
+4,VibPow_Instability,9.35,5.243,1388
+5,Error_Escalation,9.28,5.288,1396
+6,Quality_Pressure,9.26,5.254,1416
+7,Vibration_Hz_zscore,9.12,5.243,1378
+8,Maint_Score_Decay,9.01,5.297,1413
+9,Error_Rate_%_zscore,8.87,5.29,1396
+10,Temperature_C_zscore,8.4,5.314,1386
+11,Operation_Mode_Enc,6.72,5.1,884

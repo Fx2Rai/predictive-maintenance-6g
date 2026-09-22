@@ -1,0 +1,16 @@
+{
+  "Mean_Anomaly_Score": 0.2905,
+  "High_Risk_Records": 1130,
+  "Machines_with_High_Risk": 50,
+  "Avg_Medium_to_High_Lead_Duration_cycles": 1.48,
+  "Avg_Medium_to_High_Lead_Elapsed_min": 73.1,
+  "Downtime_Prevention_Potential_Proxy_pct": 33.4,
+  "Total_Maintenance_Episodes": 8895,
+  "Recovery_Success_Rate_pct": 50.5,
+  "Recovery_Success_Episodes": 4490,
+  "Methodological_Notes": {
+    "Lead_Duration": "Measures early warning runway (consecutive Medium-risk states before High-risk escalation); does not represent physical breakdown time as dataset contains no failure ground-truth labels.",
+    "Downtime_Prevention_Index_Proxy": "Calculated as ratio of High-risk anomalies preceded by an early Medium warning (33.4%). Represents theoretical pre-warning coverage, NOT measured downtime prevention, as no breakdown or downtime logs exist in the data.",
+    "Recovery_Success_Rate": "Fraction of maintenance episodes (4490/8895) where mean Anomaly_Score in the 5 records immediately after maintenance is strictly less than mean Anomaly_Score in the 5 records immediately before maintenance. Criterion is purely data-derived; no failure ground-truth labels are used."
+  }
+}
